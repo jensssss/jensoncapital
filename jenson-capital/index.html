@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenson Capital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="assets/logo.png" alt="Jenson Capital Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">INVESTMENTS</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Investing in Your Future</h1>
+            <p>At Jenson Capital, we manage your assets to beat inflation and counter the effects of money printing. Our investment products include crypto, stocks, bonds, gold, silver, and other commodities.</p>
+            <a href="" class="hero-btn">Discover Our Services</a>
+        </div>
+    </section>
+
+    <!-- investment products -->
+    <section class="investments">
+        <h1>Our Investment Products</h1>
+        <p>Explore a range of investment opportunities to secure and grow your wealth.</p>
+        <div class="row">
+            <div class="investment-col">
+                <h3>Crypto</h3>
+                <p>Invest in the future with our comprehensive crypto asset management services.</p>
+            </div>
+            <div class="investment-col">
+                <h3>Stocks</h3>
+                <p>Diversify your portfolio with high-growth stocks from various sectors.</p>
+            </div>
+            <div class="investment-col">
+                <h3>Bonds</h3>
+                <p>Stabilize your investments with our selection of high-quality bonds.</p>
+            </div>
+            <div class="investment-col">
+                <h3>Gold & Silver</h3>
+                <p>Preserve wealth with precious metals, a timeless investment option.</p>
+            </div>
+            <div class="investment-col">
+                <h3>Commodities</h3>
+                <p>Invest in tangible assets that offer a hedge against inflation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- mission and vision -->
+    <section class="mission-vision">
+        <h1>Our Mission & Vision</h1>
+        <p>We strive to manage investor assets to beat inflation and mitigate the risks of money printing.</p>
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimonials">
+        <h1>What Our Clients Say</h1>
+        <p>Read testimonials from our satisfied clients.</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="assets/user1.jpg" alt="">
+                <div>
+                    <p>Jenson Capital has transformed my investment strategy. Their expertise in crypto and other assets is unmatched.</p>
+                    <h3>Christine Berkley</h3>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="assets/user2.jpg" alt="">
+                <div>
+                    <p>The team at Jenson Capital is highly professional and dedicated. My portfolio has grown significantly.</p>
+                    <h3>David Byer</h3>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section class="cta">
+        <h1>Start Investing with Us Today</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Jenson Capital</h4>
+        <p>Jenson Capital is committed to helping investors navigate the complex world of finance with confidence.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+    <!-- Javascript for toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
